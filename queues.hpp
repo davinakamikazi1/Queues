@@ -1,5 +1,4 @@
-//Copyright 2024, Bradley Peterson, Weber State University, All rights reserved. (May 2024)
-//Copyright 2024, Bradley Peterson, Weber State University, All rights reserved. (May 2024)
+
 #include <iostream>
 #include <string>
 #include <cstdio>
