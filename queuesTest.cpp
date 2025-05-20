@@ -13,7 +13,6 @@ using std::ostringstream;
 using std::stoi;
 using std::string;
 
-//This helps with testing, do not modify.
 bool checkTest(int testNum, int& correct, int whatItShouldBe, int whatItIs) {
 
   if (whatItShouldBe == whatItIs) {
@@ -29,8 +28,6 @@ bool checkTest(int testNum, int& correct, int whatItShouldBe, int whatItIs) {
   }
 }
 
-
-//This helps with testing, comment it in when ready, but do not modify the code.
 bool checkTest(int testNum, int& correct, string whatItShouldBe, string whatItIs) {
 
   if (whatItShouldBe == whatItIs) {
@@ -51,7 +48,6 @@ bool checkTest(int testNum, int& correct, string whatItShouldBe, string whatItIs
   }
 }
 
-//This helps with testing, do not modify.
 bool checkTestMemory(int testNum, int& correct, int whatItShouldBe, int whatItIs) {
 
   if (whatItShouldBe == whatItIs) {
@@ -69,9 +65,8 @@ bool checkTestMemory(int testNum, int& correct, int whatItShouldBe, int whatItIs
 }
 
 
-//This helps with testing, do not modify.
+//This helps with testing
 
-//Copyright 2023, Bradley Peterson, Weber State University, All rights reserved. (May 2024)
 
 bool testQueueForCS2420() {
 
