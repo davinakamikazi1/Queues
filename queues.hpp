@@ -43,9 +43,6 @@ private:
     Int index;
 };
 
-
-//This base class helps the assignment compile and run without any changes.
-//Dot not modify it.  You will instead override the methods in the derived classes below.
 template <typename T>
 class BaseQueue {
 public:
@@ -64,15 +61,11 @@ public:
     // Assignment solution key: https://tinyurl.com/4j8mjhcz
 private:
 };
-
-//**********************************
-//Write your code below here
-//**********************************
 template <typename T>
 class QueueForCS2420 : public BaseQueue<T> {
 public:
 
-    // TODO: Complete constructor, copy constructor, copy assignment, and destructor, and all other needed methods
+    // Complete constructor, copy constructor, copy assignment, and destructor, and all other needed methods
     QueueForCS2420(const int capacity): max_size(capacity), current_size(0), front_index(0), back_index(0) {
         elements = new T[max_size];
     }
@@ -161,7 +154,3 @@ private:
 
 };
 
-
-//**********************************
-//Write your code above here
-//**********************************
